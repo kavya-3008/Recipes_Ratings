@@ -2,7 +2,6 @@
 
 **Name(s)**: Kavya Shah, Ishayu Ghosh
 
-**Website Link**: (your website link)
 
 ---
 
@@ -378,7 +377,9 @@ Using only features available at recipe creation ensures our model is practicall
 
 We use **RMSE** on a held-out test set to evaluate our models. RMSE is calculated as:
 
-\[RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}\]
+$$
+\text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i - \hat{y}_i\right)^2}
+$$
 
 where \(y_i\) is the true average rating and \(\hat{y}_i\) is the predicted rating.
 
