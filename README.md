@@ -375,12 +375,6 @@ Using only features available at recipe creation ensures our model is practicall
 
 **Metric Choice: RMSE (Root Mean Squared Error)**
 
-We use **RMSE** on a held-out test set to evaluate our models. RMSE is calculated as:
-
-$\text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}$
-
-where \(y_i\) is the true average rating and \(\hat{y}_i\) is the predicted rating.
-
 **Why RMSE:**
 1. **Same units**: RMSE is in the same units as the response variable (stars), making it interpretable
 2. **Penalizes large errors**: RMSE squares the errors, so large prediction errors are penalized more heavily than small ones
