@@ -3,7 +3,7 @@
 
 **Authors:** Kavya Shah, Ishayu Ghosh  
 **Course:** DSC 80 – Data Science in Practice  
-
+---
 
 ## Introduction
 
@@ -58,7 +58,7 @@ Here is the head of our cleaned DataFrame:
 We examined the distributions of key variables to understand the characteristics of recipes in our dataset.
 
 <iframe
-  src="assets/n_ingredients_distribution.html"
+  src="assets/ingredients_distribution.html"
   width="800"
   height="600"
   frameborder="0"
@@ -67,7 +67,7 @@ We examined the distributions of key variables to understand the characteristics
 The distribution of the number of ingredients shows that most recipes use between 5 and 15 ingredients, with a peak around 8-10 ingredients. There is a long tail extending to recipes with 20+ ingredients, though these are relatively rare.
 
 <iframe
-  src="assets/minutes_distribution.html"
+  src="assets/prep_time_distribution.html"
   width="800"
   height="600"
   frameborder="0"
@@ -89,7 +89,7 @@ We explored relationships between recipe characteristics and average ratings to 
 The scatter plot of number of ingredients versus average rating shows a weak positive relationship. While there is substantial variation, recipes with more ingredients tend to have slightly higher ratings on average. The trendline suggests a modest positive correlation, though the relationship is not particularly strong.
 
 <iframe
-  src="assets/minutes_vs_rating.html"
+  src="assets/prep_time_vs_rating.html"
   width="800"
   height="600"
   frameborder="0"
@@ -172,7 +172,7 @@ We performed a hypothesis test to investigate whether recipe preparation time is
 - **Conclusion:** We reject the null hypothesis at the 0.05 significance level. There is sufficient evidence to suggest that the average rating for quick recipes (≤ 30 minutes) is different from that of long recipes (> 30 minutes). The observed difference in means was 0.0350, with quick recipes having slightly higher average ratings.
 
 <iframe
-  src="assets/hypothesis_test_permutation.html"
+  src="assets/prep_time_perm_test.html"
   width="800"
   height="600"
   frameborder="0"
@@ -286,7 +286,7 @@ Difference in RMSE between quick and long recipes (RMSE_quick - RMSE_long). Larg
 We fail to reject the null hypothesis at the 0.05 significance level. The observed difference in RMSE is actually negative (-0.0586), meaning the model performs slightly **better** on quick recipes than on long recipes. The permutation test yields a p-value of approximately 0.84, indicating that the observed difference is consistent with random chance. We do not have sufficient evidence to conclude that the model is unfair with respect to recipe preparation time.
 
 <iframe
-  src="assets/fairness_permutation.html"
+  src="assets/fairness_rmse_perm.html"
   width="800"
   height="600"
   frameborder="0"
