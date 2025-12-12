@@ -1,10 +1,10 @@
-# Predicting Recipe Ratings on Food.com
+# What Makes a Recipe Well-Rated?
+## An Analysis and Prediction of Food.com Recipe Ratings
 
-**Name(s)**: Kavya Shah, Ishayu Ghosh
+**Authors:** Kavya Shah, Ishayu Ghosh  
+**Course:** DSC 80 – Data Science in Practice  
+**Website:** *(insert GitHub Pages link here)*
 
-**Website Link**: (your website link)
-
----
 
 ## Introduction
 
