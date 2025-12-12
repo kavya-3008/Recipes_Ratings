@@ -3,7 +3,6 @@
 
 **Authors:** Kavya Shah, Ishayu Ghosh  
 **Course:** DSC 80 – Data Science in Practice  
-**Website:** *(insert GitHub Pages link here)*
 
 
 ## Introduction
